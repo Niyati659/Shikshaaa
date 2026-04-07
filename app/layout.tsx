@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { RoleProvider } from '@/components/providers/RoleProvider'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
+// @ts-ignore: allow global CSS import without type declarations
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
